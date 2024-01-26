@@ -1,0 +1,378 @@
+/* Reset padrão para evitar espaçamentos indesejados e garantir a caixa-modelo padrão */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bungee", sans-serif;
+}
+
+/* Estilo básico para o corpo da página */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("./img/imagen-background.png"); /* Imagem de fundo da página */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: fixed;
+  overflow: hidden; /* Mantenha a rolagem padrão do corpo */
+}
+
+/* Estilo para o título principal */
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  left: 57vh;
+  font-size: 12.5vh;
+  min-height: 10%;
+  color: rgb(9, 48, 35);
+  width: 100vh;
+  height: 20vh;
+  animation: tada 12s infinite;
+}
+h1 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  color: rgb(99, 17, 119);
+}
+
+/* Estilo para o contêiner principal */
+.container {
+  position: fixed;
+  padding: 20px; /* Corrigido para 20 pixels */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100%;
+  width: 100%;
+}
+
+/* Estilo para o botão principal */
+button {
+  position: relative;
+  padding: 1vh;
+  font-size: 15vh;
+  cursor: pointer;
+  background-color: rgba(22, 119, 126, 0);
+  border: none;
+  border-radius: 18vh;
+  margin-top: 5%; /* Ajuste conforme necessário usando porcentagem ou outras unidades relativas */
+  left: 105vh;
+  top: 10vh;
+}
+
+/* Estilo para o parágrafo */
+p {
+  left: 105vh;
+  top: 16vh;
+  position: relative;
+  font-weight: bold;
+  font-size: 3vh;
+  margin-top: -50px; /* Ajuste conforme necessário */
+}
+
+/* Estilo para classes específicas de parágrafos */
+.p1,
+.p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para o resultado do jogo */
+.result.win {
+  animation: animate__flash 4s infinite;
+}
+.result {
+  color: rgba(99, 17, 119, 0.877);
+}
+
+/* Estilo para emojis */
+.emoji {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 10vh;
+  z-index: 10; /* Ajuste conforme necessário para garantir que o emoji esteja acima de outros elementos */
+}
+/* Animação de pulsação */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Estilo para a classe p1 e seu span correspondente */
+.p1 span,
+.p1 {
+  color: rgb(39, 68, 40);
+}
+
+/* Estilo para a classe p2 e seu span correspondente */
+.p2 span {
+  color: rgb(99, 17, 119);
+}
+.p1 {
+  color: rgb(99, 17, 119);
+}
+.p2 {
+  color: rgb(39, 68, 40);
+}
+
+/* Adicione a seguinte parte para tornar a imagem de fundo responsiva */
+@media screen and (max-width: 1280px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto; /* Mantenha a rolagem padrão do corpo */
+  }
+
+  .content-container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 6.5vw;
+    top: 5%;
+    left: 30vh;
+  }
+
+  button {
+    padding: 3vw;
+    font-size: 7vw;
+    flex-direction: row;
+    margin-top: 18%;
+    left: 80vh;
+  }
+
+  p {
+    font-size: 2vw;
+    transform: translateY(25%);
+    left: 80vh;
+    top: 10vh;
+  }
+}
+.emoji {
+  width: 100px;
+  height: 100px;
+  top: 4vh;
+  transform: translateY(-85%);
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .content-container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 8vw;
+    top: 15%;
+    left: 12vh;
+  }
+
+  button {
+    padding: 3vw;
+    font-size: 10vw;
+    flex-direction: row;
+    margin-top: 25%;
+    left: 62vh;
+  }
+
+  p {
+    font-size: 3vw;
+    transform: translateY(25%);
+    left: 60vh;
+    top: 5vh;
+  }
+}
+.emoji {
+  width: 100px;
+  height: 100px;
+  top: 10vh; /* Ajuste conforme necessário */
+  transform: translateY(-85%);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto; /* Mantenha a rolagem padrão do corpo */
+  }
+
+  .content-container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 10vw;
+    top: 15%;
+    left: -3vh;
+  }
+
+  button {
+    padding: 3vw;
+    font-size: 13vw;
+    flex-direction: row;
+    margin-top: 15%;
+    left: 48vh;
+  }
+
+  p {
+    font-size: 3vw;
+    transform: translateY(25%);
+    left: 50vh;
+    top: 15vh;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .content-container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 15vw;
+    top: 15%;
+    left: -23vh;
+  }
+
+  button {
+    padding: 3vw;
+    font-size: 15vw;
+    flex-direction: row;
+    margin-top: 30%;
+    left: 27vh;
+  }
+
+  p {
+    font-size: 5vw;
+    transform: translateY(25%);
+    left: 25vh;
+    top: 17vh;
+  }
+}
+.emoji {
+  width: 100px;
+  height: 100px;
+  top: 8vh;
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto; /* Mantenha a rolagem padrão do corpo */
+  }
+
+  .content-container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 15vw;
+    top: 15%;
+    left: -27vh;
+  }
+
+  button {
+    padding: 3vw;
+    font-size: 15vw;
+    flex-direction: row;
+    margin-top: 45%;
+    left: 22vh;
+  }
+
+  p {
+    font-size: 6vw;
+    transform: translateY(25%);
+    top: 17vh;
+    left: 23vh;
+  }
+
+  .emoji {
+    width: 80px;
+    height: 80px;
+    top: 10vh;
+    transform: translateY(-85%);
+  }
+}
+
+@media screen and (max-width: 162px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto; /* Mantenha a rolagem padrão do corpo */
+  }
+
+  h1 {
+    font-size: 15vw;
+    top: 30%;
+    left: -40vh;
+  }
+
+  button {
+    padding: 3vw;
+    font-size: 12.5vw;
+    flex-direction: row;
+    margin-top: 175%;
+    left: 9vh;
+    top: 2vh;
+  }
+
+  p {
+    font-size: 7vw;
+    transform: translateY(25%);
+    top: 18vh;
+    left: 9vh;
+  }
+
+  .emoji {
+    width: 40px;
+    height: 40px;
+    top: 5vh;
+    transform: translateY(-85%);
+  }
+}
