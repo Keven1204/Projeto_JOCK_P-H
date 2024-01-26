@@ -1,4 +1,4 @@
-<h1>Este projeto faz parte do meu aprendizado na DevClub, sob a orientação do meu mentor Rodolfo Morri. Estou muito feliz por mais um desafio concluído! 🚀🚀</h1>
+<h1>Este projeto faz parte do meu aprendizado. Estou muito feliz por mais um desafio concluído! 🚀🚀</h1>
 <br>
 
 <p>▶️ Funcionalidades Principais: Jogo Interativo
