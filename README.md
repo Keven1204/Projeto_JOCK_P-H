@@ -30,14 +30,14 @@ Consistência visual garantida em smartphones, tablets e desktops, graças ao de
 </p>
 
 <p align="center">
-  <img src="https://github.com/Andradepadilhadev/PROJETO-JOKENP-/blob/main/img/gif-projeto.gif?raw=true">
+  <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/gif-projeto.gif?raw=true">
   <br>
   <br>
-  <img src="https://github.com/Andradepadilhadev/PROJETO-JOKENP-/blob/main/img/macboock.png?raw=true">
+  <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/macboock.png?raw=true">
   <br>
   <br>
-   <img src="https://github.com/Andradepadilhadev/PROJETO-JOKENP-/blob/main/img/celular.png?raw=true">
+   <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/celular.png?raw=true">
   <br>
   <br>
-   <img src="https://github.com/Andradepadilhadev/PROJETO-JOKENP-/blob/main/img/relogio.png?raw=true">
+   <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/relogio.png?raw=true">
 </p>
