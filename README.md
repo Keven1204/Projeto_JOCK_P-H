@@ -29,15 +29,3 @@ Consistência visual garantida em smartphones, tablets e desktops, graças ao de
   <img alt="Js" height="30" width="40" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 
-<p align="center">
-  <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/gif-projeto.gif?raw=true">
-  <br>
-  <br>
-  <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/macboock.png?raw=true">
-  <br>
-  <br>
-   <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/celular.png?raw=true">
-  <br>
-  <br>
-   <img src="https://github.com/Keven1204/PROJETO-JOKENP-/blob/main/img/relogio.png?raw=true">
-</p>
